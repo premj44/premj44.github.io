@@ -43,7 +43,7 @@ function Home() {
           </Heading>
           <Box mt="25px" fontSize="25px" color="#cd5ff8">
             <Type />
-            <Box mt={"25px"}>
+            <Box mt={"25px"} >
             {links.map(({ child, href, download }) => (                    
                 <a
                   href={href}

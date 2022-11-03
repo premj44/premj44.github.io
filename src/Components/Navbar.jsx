@@ -87,7 +87,7 @@ function Navbar() {
 
         {
           links.map((item) => (
-            <Text fontSize="10px" className="hover-underline-animation"><Link to={item.link} spy={true} smooth={true} duration={500}><Button onClick={() => setShow(false)}>{item.title}</Button></Link></Text>
+            <Text fontSize="10px" className="hover-underline-animation"><Link to={item.link} spy={true} smooth={true} duration={500}><Button  bg="rgba(17,19,36,0.8)" onClick={() => setShow(false)}>{item.title}</Button></Link></Text>
 
           ))
         }
