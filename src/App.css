@@ -1,0 +1,199 @@
+.App {
+  text-align: center;
+}
+
+.listItem {
+  color: yellow
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: white;
+  cursor: pointer;
+
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.30s ease-out;
+  cursor: pointer;
+
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  cursor: pointer;
+}
+
+.hover-underline-animation:hover{
+  transform: scale(1.08);
+  transition-duration: 0.5s;
+}
+
+.wave {
+  animation-name: wave-animation;
+  /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s;
+  /* Change to speed up or slow down */
+  animation-iteration-count: infinite;
+  /* Never stop waving :) */
+  transform-origin: 70% 70%;
+  /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0.0deg)
+  }
+
+  10% {
+    transform: rotate(14.0deg)
+  }
+
+  /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8.0deg)
+  }
+
+  30% {
+    transform: rotate(14.0deg)
+  }
+
+  40% {
+    transform: rotate(-4.0deg)
+  }
+
+  50% {
+    transform: rotate(10.0deg)
+  }
+
+  60% {
+    transform: rotate(0.0deg)
+  }
+
+  /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0.0deg)
+  }
+}
+
+.resume-btn{
+  color: white;
+  background-color: #9b64f8;
+  padding: 10px 55px 10px 15px;
+  margin-top: 45px;
+  border-radius: 8px;
+}
+
+.resume-btn:hover{
+  cursor: pointer;
+  transition-duration: 0.6s;
+  background-color:#101222;
+ 
+}
+
+.hover-effect:hover{
+  transform: scale(1.04);
+  transition-duration: 0.5s;
+}
+
+.dnload-icon{
+  position: absolute;
+  padding: 5px 0px 0px 10px;
+}
+
+.span {
+  display: inline;
+   color: #be50f4;
+}
+
+.main {
+  padding: 70px;
+  /* padding-left: 50px; */
+  /* padding: 150px; */
+  color: white;
+  text-align: left;
+  font-family: 'Noto Sans', sans-serif
+}
+
+.stat {
+  border: 1px solid white;
+  box-shadow: 0px 1px 1px 1px #be50f4;
+  padding: 15px;
+  font-size: 18px;
+  color: white;
+  transition: transform;
+
+}
+
+.stat:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 1px 1px 1px #be50f4;
+  transition-duration: 0.5s;
+}
+
+.form {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  font-size: 16px;
+
+}
+
+.input {
+  width: 100%;
+  height: 35px;
+  padding: 20px;
+  outline: none;
+  border-radius: 5px;
+  background-color: inherit;
+  border: 2px solid rgb(220, 220, 220);
+  color: rgba(245, 245, 245, 0.808);
+}
+
+.textarea {
+  max-width: 100%;
+  min-width: 100%;
+  width: 100%;
+  max-height: 100px;
+  min-height: 100px;
+  padding: 7px;
+  outline: none;
+  border-radius: 5px;
+  background-color: inherit;
+  border: 2px solid rgb(220, 220, 220);
+  color: rgba(245, 245, 245, 0.808);
+}
+
+label {
+  color: white;
+  margin-top: 1rem;
+}
+
+input[type="submit"] {
+  margin-top: 2rem;
+  cursor: pointer;
+  background: #be50f4;
+  color: white;
+  border: none;
+  padding: 10px 0px 30px 0px;
+}
+
+input[type="submit"]:hover{
+  cursor: pointer;
+  transition-duration: 0.6s;
+  background-color:#101222;
+}
+
