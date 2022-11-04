@@ -27,23 +27,23 @@ function About() {
                     adapt to new environments quickly and the strong
                     expertise to  <span className='span'> communicate</span>
                     and <span className='span'>express </span> ideas effectively.
-                 
-                    Looking forward to  work in a <span className='span'>organization </span>where I can
-                    showcase my skills  and apply exceptional Knowledge of
-                    <span className='span'>coding, development and designs</span> to leverage the <span className='span'> goals
-                    and ambitions</span>  of the organization.
+
+                    Looking forward to  to working in an <span className='span'>organization </span>where I can
+                    showcase my skills  and apply Knowledge of
+                    <span className='span'>coding, development, and designs</span> to leverage the <span className='span'> goals
+                        and ambitions</span>  of the organization.
                 </Text>
                 <Flex justifyContent="space-between">
                     <Box
                         mt="20px"
-                        
+
                         fontWeight="300"
                     >
                         <Text fontSize="28px">With <span className='span'>coding,</span>  some other Interest that I love!  </Text>
                         <UnorderedList fontSize="21px" mt={"10px"}>
                             <ListItem>Travelling</ListItem>
                             <ListItem>Music</ListItem>
-                            <ListItem>Sci-fi & Mystery Movies</ListItem>                   
+                            <ListItem>Sci-fi & Mystery Movies</ListItem>
                         </UnorderedList>
 
                     </Box>
