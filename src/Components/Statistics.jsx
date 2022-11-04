@@ -19,7 +19,7 @@ function Statistics() {
           </Heading>
         </Box>
 
-        <SimpleGrid className='' pt="60px" m="auto" columns={[2, 3]} gap={["20px", "50px"]} spacing="20px" w={["90%", "70%"]}>
+        <SimpleGrid className='' pt="50px" m="auto" columns={[2, 3]} gap={["20px", "50px"]} spacing="20px" w={["90%", "70%"]}>
           <Box className="stat">  1200+ Hours of Full Stack Coding</Box>
           <Box className="stat">   210+ Git Commits</Box>
           <Box className="stat"> 20+ Projects Done</Box>

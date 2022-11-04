@@ -28,6 +28,7 @@ function Home() {
         px="80px"
         pt="90px"
         h={{ sm: "auto", md: "auto", lg: "100vh" }}
+        pb={["10px","10px"]}
         direction={["column", "flex", "row"]}
         bgGradient='linear(to-t, black 50%,rgb(17,19,36))'
       >
@@ -41,19 +42,19 @@ function Home() {
             <Text mb={"10px"}> <Text fontWeight="normal" display="inline"> I'M</Text> <Heading display="inline" color="#cd5ff8">PREMKUMAR JADHAV</Heading></Text>
             <Heading fontSize={["34px", "38px", "48px"]}>I'm a Full Stack Web<br />Developer</Heading>
           </Heading>
-          <Box mt="25px" fontSize="25px" color="#cd5ff8">
+          <Box mt="25px" fontSize={["18px", "25px"]} color="#cd5ff8">
             <Type />
-            <Box mt={"25px"} >
-            {links.map(({ child, href, download }) => (                    
+            <Box mt={"25px"} pb={["20px", "20px"]} >
+              {links.map(({ child, href, download }) => (
                 <a
                   href={href}
                   className="resume-btn"
                   download={download}
                 >
                   {child}
-                </a>     
-            ))}
-            </Box>      
+                </a>
+              ))}
+            </Box>
           </Box>
         </Box>
         <Box
@@ -63,7 +64,7 @@ function Home() {
           <Img
             borderRadius="50%"
             h={["150px", "300px", "400px"]}
-            src= "https://avatars.githubusercontent.com/u/101566195?v=4" alt="avatar" />
+            src="https://avatars.githubusercontent.com/u/101566195?v=4" alt="avatar" />
         </Box>
       </Flex>
 

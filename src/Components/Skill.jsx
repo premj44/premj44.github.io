@@ -66,6 +66,7 @@ function Skill() {
 
         pl={["0px", "60px"]}
         h={{ sm: "auto", md: "auto", lg: "100vh" }}
+        pb={["20px","10px"]}
         color="white"
         textAlign="left"
         fontFamily="'Noto Sans', sans-serif"

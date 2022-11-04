@@ -23,7 +23,7 @@ function Tool() {
             <Box
 
                 pl={["0px", "60px"]}
-                h={{sm:"auto",md:"auto",lg:"100vh"}}
+                h={{sm:"auto",md:"auto",lg:"80vh"}}
                 color="white"
                 textAlign="left"
                 fontFamily="'Noto Sans', sans-serif"
