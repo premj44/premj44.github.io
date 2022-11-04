@@ -36,6 +36,7 @@ function Contact() {
           color="white"
           display="inline-flex"
           ml="30px"
+          mt="15px"
           borderBottom="4px solid gray">
           <Heading >Contact</Heading>
         </Box>
