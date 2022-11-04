@@ -59,7 +59,7 @@ function Projects() {
           borderBottom="4px solid gray">
           <Heading>My Recent <span className="span">Projects</span></Heading>
         </Box>
-
+        
         <Text ml="30px" mb="20px" fontWeight="500" fontSize="18px">Check out some of my work here</Text>
         <SimpleGrid columns={{ sm: 1, md: 2, lg: 3 }} pb={["20px", "20px"]} gap="30px" w="90%" m="auto">
           {

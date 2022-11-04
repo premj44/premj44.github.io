@@ -1,7 +1,7 @@
 import { Flex, Box, Heading, Img, Text } from '@chakra-ui/react'
 import React from 'react'
 import Type from "../Type"
-import resume from "../assets/PremResume.pdf"
+import resume from "../assets/Premkumar-Jadhav-Resume.pdf"
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
 function Home() {

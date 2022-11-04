@@ -30,6 +30,11 @@ function Navbar() {
     },
     {
       id: 5,
+      link: "github",
+      title: "Github"
+    },
+    {
+      id: 5,
       link: "contact",
       title: "Contact"
     },

@@ -1,4 +1,4 @@
-import { Box, Heading } from "@chakra-ui/react";
+import { Box, Flex, Heading, Img } from "@chakra-ui/react";
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
 
@@ -6,7 +6,8 @@ function Github() {
     return (
 
         <Box
-            pl={["0px", "60px"]}
+        name="github"
+            pb='15px'
             h={["auto"]}
             color="white"
             textAlign="left"
@@ -14,19 +15,57 @@ function Github() {
             bgGradient='linear(to-t, black 20%,rgb(17,19,36))'
 
         >
-            <Box borderBottom="4px solid gray" w="240px">
-                <Heading ml="30px" borderBottom="4px solid gray 15px">Days ,I <span className="span">Code </span></Heading>
+            
+                <Flex  justifyContent={'center'} py='15px'>
+                    <Box borderBottom="4px solid gray" w='250px'>
+                    <Heading display='inline' >Days ,I <span className="span">Code </span></Heading>
+                    </Box>
+                </Flex>
+           
+            <Flex justifyContent='center' w="90%" m="auto" >
+                <Box m="auto" w="90%" py="40px">
+                    <GitHubCalendar
+                        username="premj44"
+                        blockSize={15}
+                        blockMargin={5}
+                        color="#dc143c"
+                        fontSize={16}
+                    />
+                </Box>
+            </Flex>
+
+            <Box m='auto' w={["80%",'50%']} pb={["10px","20px"]}>     
+                    <Img
+                        align="center"
+                        src="https://github-readme-streak-stats.herokuapp.com/?user=premj44&theme=dark"
+                        alt="streak"
+                        w={['100%','80%']}
+                        />
+                    
             </Box>
 
-            <Box m="auto" w="90%" py="40px" pt="50px">
-                <GitHubCalendar
-                    username="premj44"
-                    blockSize={15}
-                    blockMargin={5}
-                    color="#dc143c"
-                    fontSize={16}
-                />
-            </Box>
+            <Flex  direction={['column', 'row']} w={["80%",'80%']}  gap={['10px','40px']} m='auto'>
+                <Box >
+                    <Img
+                        align="center"
+                        src="https://github-readme-stats.vercel.app/api/top-langs/?username=premj44&show_icons=true&locale=en&layout=compact&theme=dark"
+                        alt="langs"
+                        w='450px'
+                    />
+                </Box>
+
+                <Box>
+                    <Img
+
+                        align="left"
+                        src="https://github-readme-stats.vercel.app/api?username=premj44&count_private=true&show_icons=true&theme=dark"
+                        alt="stats"
+                         w='450px'
+
+                    />
+                </Box>
+            </Flex>
+
         </Box>
 
     );
