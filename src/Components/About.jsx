@@ -1,6 +1,6 @@
 import { Box, Heading, Text, Flex, Img } from '@chakra-ui/react'
 import React from 'react'
-
+import image from '../assets/codingimg.png'
 import {
     ListItem,
     UnorderedList,
@@ -18,6 +18,7 @@ function About() {
                     borderBottom="4px solid gray">
                     <Heading>About</Heading>
                 </Box>
+
                 <Text mt="30px" fontWeight="400" fontSize="28px">KNOW WHO <Text className='span'>I'M</Text></Text>
                 <Text mt="20px"
                     fontSize="20px"
@@ -33,6 +34,7 @@ function About() {
                     <span className='span'>coding, development, and designs</span> to leverage the <span className='span'> goals
                         and ambitions</span>  of the organization.
                 </Text>
+                
                 <Flex justifyContent="space-between">
                     <Box
                         mt="20px"
@@ -48,7 +50,7 @@ function About() {
 
                     </Box>
                     <Box>
-                        <Img pr="40px" src='https://www.soumya-jit.tech/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg' alt="img" />
+                        <Img w='250px' borderRadius='50%' src='https://img.freepik.com/premium-vector/programmer-focused-work-project-while-sitting-easy-chair_569013-330.jpg?w=740' alt="img" />
                     </Box>
                 </Flex>
 

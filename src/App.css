@@ -90,7 +90,7 @@
 
 .resume-btn{
   color: white;
-  background-color: #9b64f8;
+  background-color: #dc143c;
   padding: 10px 55px 10px 15px;
   margin-top: 45px;
   border-radius: 8px;
@@ -115,7 +115,9 @@
 
 .span {
   display: inline;
-   color: #be50f4;
+   color: #dc143c;
+   
+   
 }
 
 .main {
@@ -129,7 +131,7 @@
 
 .stat {
   border: 1px solid white;
-  box-shadow: 0px 1px 1px 1px #be50f4;
+  box-shadow: 0px 1px 1px 1px #dc143c;
   padding: 15px;
   font-size: 18px;
   color: white;
@@ -139,7 +141,7 @@
 
 .stat:hover {
   transform: scale(1.05);
-  box-shadow: 0px 1px 1px 1px #be50f4;
+  box-shadow: 0px 1px 1px 1px #dc143c;
   transition-duration: 0.5s;
 }
 
@@ -185,7 +187,7 @@ label {
 input[type="submit"] {
   margin-top: 2rem;
   cursor: pointer;
-  background: #be50f4;
+  background: #dc143c;
   color: white;
   border: none;
   padding: 10px 0px 30px 0px;

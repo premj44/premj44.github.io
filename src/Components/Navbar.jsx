@@ -41,7 +41,7 @@ function Navbar() {
       <Flex
         position="fixed"
         w="100%"
-        bg="#000000"
+        bg="#0d0f1c"
         color="white"
         px="20px"
         justifyContent="space-between"
@@ -49,10 +49,9 @@ function Navbar() {
       >
         <Heading
           className="hover-underline-animation"
-          fontFamily="'Italianno', cursive"
           fontWeight="600"
-          fontSize="58px"
-        >Prem Jadhav</Heading>
+          fontSize="50px"
+        >Prem<span className='span'>kumar</span></Heading>
         <Flex
           gap="30px"
           fontSize="16px"
@@ -61,10 +60,11 @@ function Navbar() {
 
           {
             links.map((item) => (
-              <Text  className="hover-underline-animation"><Link to={item.link} spy={true} smooth={true} duration={500}><Text fontSize="22px">{item.title}</Text></Link></Text>
+              <Text className="hover-underline-animation"><Link to={item.link} spy={true} smooth={true} duration={500}><Text fontSize="22px">{item.title}</Text></Link></Text>
 
             ))
           }
+
         </Flex>
         <Button
           onClick={() => setShow(!show)}
@@ -76,7 +76,7 @@ function Navbar() {
         gap="30px"
         fontSize="16px"
         color="white"
-        display={["flex",'none']}
+        display={["flex", 'none']}
         flexDirection="column"
         bg="rgba(17,19,36,0.8)"
         width="100%"
@@ -84,10 +84,9 @@ function Navbar() {
         top="70px"
       >
 
-
         {
           links.map((item) => (
-            <Text fontSize="10px" className="hover-underline-animation"><Link to={item.link} spy={true} smooth={true} duration={500}><Button  bg="rgba(17,19,36,0.8)" onClick={() => setShow(false)}>{item.title}</Button></Link></Text>
+            <Text fontSize="10px" className="hover-underline-animation"><Link to={item.link} spy={true} smooth={true} duration={500}><Button bg="rgba(17,19,36,0.8)" onClick={() => setShow(false)}>{item.title}</Button></Link></Text>
 
           ))
         }

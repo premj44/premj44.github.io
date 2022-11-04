@@ -2,9 +2,9 @@ import { Box, Flex, Heading, SimpleGrid, Text } from '@chakra-ui/react'
 import React from 'react'
 import {
     SiVisualstudiocode,
-  SiPostman,
-  SiHeroku,
-  SiVercel,
+    SiPostman,
+    SiHeroku,
+    SiVercel,
 } from "react-icons/si";
 import { SiNetlify } from "react-icons/si";
 import { AiOutlineCodeSandbox } from "react-icons/ai";
@@ -21,9 +21,8 @@ function Tool() {
     return (
         <div>
             <Box
-
                 pl={["0px", "60px"]}
-                h={{sm:"auto",md:"auto",lg:"80vh"}}
+                h={{ sm: "auto", md: "auto", lg: "80vh" }}
                 color="white"
                 textAlign="left"
                 fontFamily="'Noto Sans', sans-serif"
@@ -46,7 +45,7 @@ function Tool() {
                                 className='hover-effect'
                                 justifyContent="center"
                                 p='10px'
-                                boxShadow="0px 1px 1px 1px #be50f4"
+                                boxShadow="0px 1px 1px 1px #dc143c"
                             >{<item.tool size="100px" />}</Flex>
                         ))
                     }

@@ -42,7 +42,7 @@ function Contact() {
         </Box>
         <Box>
         </Box>
-        <Flex  mt={["10px","30px"]} justifyContent="space-evenly" direction={["column", "row", "row"]}>
+        <Flex mt={["10px", "30px"]} justifyContent="space-evenly" direction={["column", "row", "row"]}>
           <Box w={["90%", "40%"]} textAlign="left" m="auto" mt="40px" color="white">
             <Text>Whether you want to get in touch or talk, I'd love to hear from you</Text>
             <Text mt="10px" color="grat"><span className="span">Submit the form below to get in touch with me</span></Text>

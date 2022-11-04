@@ -61,7 +61,7 @@ function Projects() {
         </Box>
 
         <Text ml="30px" mb="20px" fontWeight="500" fontSize="18px">Check out some of my work here</Text>
-        <SimpleGrid columns={{sm:1,md:2,lg:3}} pb={["20px","20px"]} gap="30px" w="90%" m="auto">
+        <SimpleGrid columns={{ sm: 1, md: 2, lg: 3 }} pb={["20px", "20px"]} gap="30px" w="90%" m="auto">
           {
             projects.map((item) => (
               <Box
@@ -70,10 +70,10 @@ function Projects() {
                 p="20px"
                 mt={["20px", "0px"]}>
                 <Img src={item.src} alt="img" h="180px" borderRadius="8px" />
-                <Heading mt="10px" fontSize="20px" fontWeight="bold" letterSpacing="3px" color="#c770f0">{item.name}</Heading>
+                <Heading mt="10px" fontSize="20px" fontWeight="bold" letterSpacing="3px" ><span className='span'>{item.name}</span></Heading>
                 <Text mt="10px">{item.info}</Text>
                 <Text mt="10px">{item.team}</Text>
-                <Text mt="10px" color="#c770f0">{item.tstack}</Text>
+                <Text mt="10px" color="#c770f0"><span className='span'>{item.tstack}</span></Text>
                 <Flex gap="50px" mt="10px">
                   <Link className='hover-effect' href={item.link} isExternal>
                     Demo <ExternalLinkIcon mx='2px' />

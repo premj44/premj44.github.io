@@ -28,7 +28,7 @@ function Home() {
         px="80px"
         pt="90px"
         h={{ sm: "auto", md: "auto", lg: "100vh" }}
-        pb={["10px","10px"]}
+        pb={["10px", "10px"]}
         direction={["column", "flex", "row"]}
         bgGradient='linear(to-t, black 50%,rgb(17,19,36))'
       >
@@ -39,10 +39,10 @@ function Home() {
         >
           <Heading>
             <Text mb={"15px"} fontWeight="normal">Hi There! <span className='wave'>👋🏻</span></Text>
-            <Text mb={"10px"}> <Text fontWeight="normal" display="inline"> I'M</Text> <Heading display="inline" color="#cd5ff8">PREMKUMAR JADHAV</Heading></Text>
+            <Text mb={"10px"}> <Text fontWeight="normal" display="inline"> I'M</Text> <Heading display="inline" color="#cd5ff8"><span className='span'>PREMKUMAR JADHAV</span></Heading></Text>
             <Heading fontSize={["34px", "38px", "48px"]}>I'm a Full Stack Web<br />Developer</Heading>
           </Heading>
-          <Box mt="25px" fontSize={["18px", "25px"]} color="#cd5ff8">
+          <Box mt="25px" fontSize={["18px", "25px"]} className="span">
             <Type />
             <Box mt={"25px"} pb={["20px", "20px"]} >
               {links.map(({ child, href, download }) => (

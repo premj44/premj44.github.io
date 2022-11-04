@@ -63,10 +63,9 @@ function Skill() {
   return (
     <div name="skill">
       <Box
-
         pl={["0px", "60px"]}
         h={{ sm: "auto", md: "auto", lg: "100vh" }}
-        pb={["20px","10px"]}
+        pb={["20px", "10px"]}
         color="white"
         textAlign="left"
         fontFamily="'Noto Sans', sans-serif"
@@ -77,8 +76,8 @@ function Skill() {
           ml="30px"
           borderBottom="4px solid gray">
           <Heading> Professional <span className="span">Skillset</span></Heading>
-
         </Box>
+
         <Text ml="30px" mt="15px">These are the technologies I've worked with and used them in my projects.</Text>
         <Box>
           <SimpleGrid w={{
@@ -86,10 +85,10 @@ function Skill() {
             md: '90%',
             xl: '70%',
           }} m="auto" mt="40px" py={{ sm: "0px", md: "50px", lg: "0px" }} columns={[2, 3, 3]} spacing={30} >
-            {techs.map(({ id, src, title, style }) => (
+            {techs.map(({ id, src, title }) => (
               <Box
                 className='hover-effect'
-                boxShadow="0px 3px 3px #3f6b96"
+                boxShadow="0px 3px 3px #dc143c"
                 textAlign="center"
                 cursor="pointer"
                 key={id}
