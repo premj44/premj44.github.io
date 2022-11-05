@@ -58,7 +58,7 @@ function Navbar() {
           fontSize="50px"
         >Prem<span className='span'>kumar</span></Heading>
         <Flex
-          gap="30px"
+          gap= {{sm:"10px",md:"10px",lg:"30px"}}
           fontSize="16px"
           display={["none", "none", "flex"]}
         >
