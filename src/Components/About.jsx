@@ -16,23 +16,21 @@ function About() {
                     color="white"
                     display="inline-flex"
                     borderBottom="4px solid gray">
-                    <Heading>About</Heading>
+                    <Heading><span className='span'>About</span> Me</Heading>
                 </Box>
 
-                <Text mt="30px" fontWeight="400" fontSize="28px">KNOW WHO <Text className='span'>I'M</Text></Text>
                 <Text mt="20px"
                     fontSize="20px"
                     fontWeight="300"
-                ><span className='span'></span>
-                    An aspiring <span className='span'>full-stack web developer,</span> Having the ability to
+                >
+                    An aspiring full-stack web developer, Having the ability to
                     adapt to new environments quickly and the strong
-                    expertise to  <span className='span'> communicate</span>
-                    and <span className='span'>express </span> ideas effectively.
-
-                    Looking forward to  to working in an <span className='span'>organization </span>where I can
+                    expertise to   communicate
+                    and express  ideas effectively.
+                    Looking forward to  to working in an organization where I can
                     showcase my skills  and apply Knowledge of
-                    <span className='span'>coding, development, and designs</span> to leverage the <span className='span'> goals
-                        and ambitions</span>  of the organization.
+                    coding, development, and designs to leverage the  goals
+                        and ambitions  of the organization.
                 </Text>
                 
                 <Flex justifyContent="space-between">
