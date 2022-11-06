@@ -30,14 +30,14 @@ function Navbar() {
     },
     {
       id: 5,
-      link: "github",
-      title: "Github"
-    },
-    {
-      id: 5,
       link: "contact",
       title: "Contact"
     },
+    {
+      id: 6,
+      title: "Resume"
+    },
+
   ];
 
 
@@ -58,18 +58,20 @@ function Navbar() {
           fontSize="50px"
         >Prem<span className='span'>kumar</span></Heading>
         <Flex
-          gap= {{sm:"10px",md:"10px",lg:"30px"}}
+          gap={{ sm: "10px", md: "10px", lg: "30px" }}
           fontSize="16px"
           display={["none", "none", "flex"]}
         >
-
           {
-            links.map((item) => (
-              <Text className="hover-underline-animation"><Link to={item.link} spy={true} smooth={true} duration={500}><Text fontSize="22px">{item.title}</Text></Link></Text>
+            links.map((item) => {
+              if (item.id == 6) {
+                return <Text className="hover-underline-animation"><a target='blank' href='https://drive.google.com/file/d/1tqlYIUeINIfAxQinXV_Hy1XlnYtla8ig/view?usp=sharing' fontSize="22px"><Text fontSize="22px">{item.title}</Text></a></Text>
+              } else {
+                return <Text className="hover-underline-animation"><Link to={item.link} spy={true} smooth={true} duration={500}><Text fontSize="22px">{item.title}</Text></Link></Text>
 
-            ))
+              }
+            })
           }
-
         </Flex>
         <Button
           onClick={() => setShow(!show)}

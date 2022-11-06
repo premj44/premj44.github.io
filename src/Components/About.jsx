@@ -10,7 +10,7 @@ function About() {
     return (
         <div name="about">
             <Box className='main'
-                h={{ sm: "auto", md: "auto", lg: "100vh" }}
+                h={{ sm: "auto", md: "auto", lg: "80vh" }}
                 bgGradient='linear(to-t, black 50%,rgb(17,19,36))' >
                 <Box
                     color="white"
@@ -36,7 +36,6 @@ function About() {
                 <Flex justifyContent="space-between">
                     <Box
                         mt="20px"
-
                         fontWeight="300"
                     >
                         <Text fontSize="28px">With <span className='span'>coding,</span>  some other Interest that I love!  </Text>
@@ -45,10 +44,9 @@ function About() {
                             <ListItem>Music</ListItem>
                             <ListItem>Sci-fi & Mystery Movies</ListItem>
                         </UnorderedList>
-
                     </Box>
                     <Box>
-                        <Img w='250px' borderRadius='50%' src='https://img.freepik.com/premium-vector/programmer-focused-work-project-while-sitting-easy-chair_569013-330.jpg?w=740' alt="img" />
+                        <Img w='250px' borderRadius='50%' src={image} alt="img" />
                     </Box>
                 </Flex>
 

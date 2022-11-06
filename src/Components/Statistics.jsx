@@ -11,6 +11,7 @@ function Statistics() {
       >
         <Box
           display="inline-block"
+          justifyContent={'center'}
           textAlign="left"
           borderBottom="4px solid gray">
           <Heading color="white">

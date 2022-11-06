@@ -6,7 +6,6 @@ function Github() {
     return (
 
         <Box
-            name="github"
             pb='25px'
             h={["auto"]}
             color="white"
@@ -35,21 +34,11 @@ function Github() {
             </Flex>
             <Box  ml={{sm:"0px" , md:"0px",lg:"105px"}}>
 
-                <Box m='auto' w={["80%", '50%']} pb={["10px", "20px"]} ml={{sm:"500px" , md:"230px",lg:"340px"}}>
-                    <Img
-                        align="center"
-                        src="https://github-readme-streak-stats.herokuapp.com/?user=premj44&theme=dark"
-                        alt="streak"
-                        w={['100%', '80%']}
-                    />
-
-                </Box>
-
                 <Flex direction={['column', 'row']} w={["80%", '80%']} gap={['10px', '20px']} m='auto'>
                     <Box >
                         <Img
                             align="center"
-                            src="https://github-readme-stats.vercel.app/api/top-langs/?username=premj44&show_icons=true&locale=en&layout=compact&theme=dark"
+                            src="https://github-readme-streak-stats.herokuapp.com/?user=premj44&theme=dark"
                             alt="langs"
                             w='450px'
                         />

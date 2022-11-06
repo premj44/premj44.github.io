@@ -22,7 +22,7 @@ function Tool() {
         <div>
             <Box
                 pl={["0px", "60px"]}
-                h={{ sm: "auto", md: "auto", lg: "80vh" }}
+                h={{ sm: "auto", md: "auto", lg: "75vh" }}
                 color="white"
                 textAlign="left"
                 fontFamily="'Noto Sans', sans-serif"
@@ -38,7 +38,7 @@ function Tool() {
                     base: '90%',
                     md: '90%',
                     xl: '70%',
-                }} m="auto" mt="40px" columns={[2, 3, 3]} spacing={30}>
+                }} m="auto" mt="10px" columns={[2, 3, 3]} spacing={30}>
                     {
                         Tools.map((item) => (
                             <Flex

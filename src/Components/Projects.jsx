@@ -3,6 +3,10 @@ import React from 'react'
 import dhalard from "../assets/portfolio/toggle.png";
 import jcrew from "../assets/portfolio/jcrew.png";
 import nord from "../assets/portfolio/nord.png";
+import deccanherald from "../assets/portfolio/deccanherald.png";
+import nifty from "../assets/portfolio/nifty.png";
+
+
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 
 
@@ -26,26 +30,48 @@ function Projects() {
       repo: 'https://github.com/Prakarshprasar/J.Crew-Clone',
       info: "J.CREW is a brand that beliefs in creating timeless clothing and accessories.",
       team: "A collaborative project, built in 5 days by a team of 5 developers.",
-      tstack: "HTML | CSS | JAVASCRIPT"
+      tstack: "HTML | CSS | JavaScript"
     },
     {
-      id: 2,
+      id: 3,
       src: nord,
       name: "NORDSTROM CLONE",
       link: 'https://fancy-bubblegum-0316ae.netlify.app/',
       repo: 'https://github.com/premj44/U3.0-Project-Nordstrom',
-      info: "Nordstrom is an American luxury clothing, shoes and accessories for men, women and kids",
+      info: "Nordstrom is an American luxury clothing, shoes and accessories for men, women and kids.",
       team: "An individual project completed in 5 days.",
-      tstack: "HTML | CSS | JAVASCRIPT"
+      tstack: "HTML | CSS | JavaScript"
     },
+    {
+      id: 4,
+      src: deccanherald,
+      name: "DECCAN HERALD CLONE",
+      link: "https://631f89d7c2275d68af780a71--premnews.netlify.app/",
+      repo: 'https://github.com/premj44/DeccanHerald-Clone',
+      info: "Deccan Herald is an Indian English language daily newspaper to brings Breaking News.",
+      team: "An individual project completed in 5 days.",
+      tstack: "React | Chakra UI | JavaScript | HTML | CSS"
+    },
+    {
+      id: 5,
+      src: nifty,
+      name: "NIFTY CLONE",
+      link: 'https://premniftyapp.netlify.app/',
+      repo: 'https://github.com/premj44/Nifty-Clone',
+      info: "Nifty is the remote collaboration hub to manage projects, tasks, and communications all in one place.",
+      team: "An individual project completed in 5 days.",
+      tstack: "React | Chakra UI | JavaScript | HTML | CSS"
+    },
+   
 
   ];
   return (
     <Box name="projects">
       <Box
-
+    
         pl={{ md: "0px", sm: "auto", lg: "60px" }}
-        h={{ sm: "auto", md: "auto", lg: "100vh" }}
+        pb='30px'
+        // h={{ sm: "auto", md: "auto", lg: "100vh" }}
         color="white"
         textAlign="left"
         fontFamily="'Noto Sans', sans-serif"
@@ -69,17 +95,17 @@ function Projects() {
                 boxShadow="0px 3px 3px 1px gray"
                 p="20px"
                 mt={["20px", "0px"]}>
-                <Img src={item.src} alt="img" h="180px" borderRadius="8px" />
+                <Img src={item.src} alt="img"  h='180px'  borderRadius="8px" />
                 <Heading mt="10px" fontSize="20px" fontWeight="bold" letterSpacing="3px" ><span className='span'>{item.name}</span></Heading>
                 <Text mt="10px">{item.info}</Text>
                 <Text mt="10px">{item.team}</Text>
                 <Text mt="10px" color="#c770f0"><span className='span'>{item.tstack}</span></Text>
                 <Flex gap="50px" mt="10px">
-                  <Link className='hover-effect' href={item.link} isExternal>
-                    Demo <ExternalLinkIcon mx='2px' />
-                  </Link>
                   <Link className='hover-effect' href={item.repo} isExternal>
-                    github <ExternalLinkIcon mx='2px' />
+                    Github <ExternalLinkIcon mx='2px' />
+                  </Link>
+                  <Link className='hover-effect' href={item.link} isExternal>
+                    Live <ExternalLinkIcon mx='2px' />
                   </Link>
                 </Flex>
               </Box>
