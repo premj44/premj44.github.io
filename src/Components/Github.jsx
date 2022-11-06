@@ -17,7 +17,7 @@ function Github() {
 
             <Flex justifyContent={'center'} py='15px'>
                 <Box borderBottom="4px solid gray" w='250px'>
-                    <Heading display='inline' >Days ,I <span className="span">Code </span></Heading>
+                    <Heading display='inline' >Days I <span className="span">Code </span></Heading>
                 </Box>
             </Flex>
 
@@ -35,7 +35,7 @@ function Github() {
             <Box  ml={{sm:"0px" , md:"0px",lg:"105px"}}>
 
                 <Flex direction={['column', 'row']} w={["80%", '80%']} gap={['10px', '20px']} m='auto'>
-                    <Box >
+                    <Box className="hover-effect">
                         <Img
                             align="center"
                             src="https://github-readme-streak-stats.herokuapp.com/?user=premj44&theme=dark"
@@ -44,7 +44,7 @@ function Github() {
                         />
                     </Box>
 
-                    <Box>
+                    <Box  className="hover-effect">
                         <Img
 
                             align="left"
