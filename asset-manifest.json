@@ -1,12 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.f49534eb.css",
-    "main.js": "/static/js/main.14ec3f9c.js",
+    "main.js": "/static/js/main.4e174f54.js",
     "static/js/787.fdc708c4.chunk.js": "/static/js/787.fdc708c4.chunk.js",
     "static/media/jcrew.png": "/static/media/jcrew.1602292bc04a34a2ff76.png",
+    "static/media/deccanherald.png": "/static/media/deccanherald.9396877daee0632f0186.png",
     "static/media/Premkumar-Jadhav-Resume.pdf": "/static/media/Premkumar-Jadhav-Resume.ab18e381c6ef364b291a.pdf",
+    "static/media/nifty.png": "/static/media/nifty.162fcb32c1f19048a060.png",
     "static/media/codingimg.png": "/static/media/codingimg.419811c30e8f6267a98a.png",
-    "static/media/nord.png": "/static/media/nord.dc7a3d72faa0b38290ce.png",
+    "static/media/nord.png": "/static/media/nord.9b0d185a92b82977d600.png",
     "static/media/toggle.png": "/static/media/toggle.ef2d04b53020708eb22f.png",
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "/static/media/node.952a9ea986dcfa5229ad.png",
@@ -17,11 +19,11 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.f49534eb.css.map": "/static/css/main.f49534eb.css.map",
-    "main.14ec3f9c.js.map": "/static/js/main.14ec3f9c.js.map",
+    "main.4e174f54.js.map": "/static/js/main.4e174f54.js.map",
     "787.fdc708c4.chunk.js.map": "/static/js/787.fdc708c4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f49534eb.css",
-    "static/js/main.14ec3f9c.js"
+    "static/js/main.4e174f54.js"
   ]
 }
