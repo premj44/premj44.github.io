@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f49534eb.css",
-    "main.js": "/static/js/main.4e174f54.js",
+    "main.js": "/static/js/main.62aaa976.js",
     "static/js/787.fdc708c4.chunk.js": "/static/js/787.fdc708c4.chunk.js",
     "static/media/jcrew.png": "/static/media/jcrew.1602292bc04a34a2ff76.png",
     "static/media/deccanherald.png": "/static/media/deccanherald.9396877daee0632f0186.png",
@@ -19,11 +19,11 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.f49534eb.css.map": "/static/css/main.f49534eb.css.map",
-    "main.4e174f54.js.map": "/static/js/main.4e174f54.js.map",
+    "main.62aaa976.js.map": "/static/js/main.62aaa976.js.map",
     "787.fdc708c4.chunk.js.map": "/static/js/787.fdc708c4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f49534eb.css",
-    "static/js/main.4e174f54.js"
+    "static/js/main.62aaa976.js"
   ]
 }
