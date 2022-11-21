@@ -10,6 +10,7 @@ function About() {
     return (
         <div name="about">
             <Box className='main'
+                p={["22px","70px" ]}
                 h={{ sm: "auto", md: "auto", lg: "80vh" }}
                 bgGradient='linear(to-t, black 50%,rgb(17,19,36))' >
                 <Box

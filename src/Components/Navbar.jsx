@@ -46,6 +46,7 @@ function Navbar() {
       <Flex
         position="fixed"
         w="100%"
+        zIndex={"111"}
         bg="#0d0f1c"
         color="white"
         px="20px"
