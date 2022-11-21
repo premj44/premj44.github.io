@@ -5,6 +5,7 @@ import jcrew from "../assets/portfolio/jcrew.png";
 import nord from "../assets/portfolio/nord.png";
 import deccanherald from "../assets/portfolio/deccanherald.png";
 import nifty from "../assets/portfolio/nifty.png";
+import techcart from "../assets/portfolio/techcart.png";
 
 
 import { ExternalLinkIcon } from '@chakra-ui/icons'
@@ -14,6 +15,16 @@ function Projects() {
   const projects = [
     {
       id: 1,
+      src: techcart,
+      name: "TECH CART",
+      link: 'https://tech-cart-frontend.vercel.app/',
+      repo: 'https://github.com/shaileshwebdeveloper/Techcart-website',
+      info: "It is a leading E-commerce platform for selling electronic gadgets.",
+      team: "A collaborative project of 5 team members completed in 5 days.",
+      tstack: "React | Chakra UI | JavaScript | HTML | CSS | Node JS | Express JS | MongoDB "
+    },
+    {
+      id: 2,
       src: dhalard,
       name: "TOGGLE TRACK CLONE",
       link: 'https://toggletrack-beta.vercel.app/',
@@ -23,7 +34,7 @@ function Projects() {
       tstack: "React | Chakra UI | JavaScript | HTML | CSS | Node JS | Express JS | MongoDB "
     },
     {
-      id: 2,
+      id: 3,
       src: jcrew,
       name: "JCREW CLONE",
       link: "https://timely-toffee-674f49.netlify.app/",
@@ -33,7 +44,7 @@ function Projects() {
       tstack: "HTML | CSS | JavaScript"
     },
     {
-      id: 3,
+      id: 4,
       src: nord,
       name: "NORDSTROM CLONE",
       link: 'https://fancy-bubblegum-0316ae.netlify.app/',
@@ -43,7 +54,7 @@ function Projects() {
       tstack: "HTML | CSS | JavaScript"
     },
     {
-      id: 4,
+      id: 5,
       src: deccanherald,
       name: "DECCAN HERALD CLONE",
       link: "https://631f89d7c2275d68af780a71--premnews.netlify.app/",
@@ -53,7 +64,7 @@ function Projects() {
       tstack: "React | Chakra UI | JavaScript | HTML | CSS"
     },
     {
-      id: 5,
+      id: 6,
       src: nifty,
       name: "NIFTY CLONE",
       link: 'https://premniftyapp.netlify.app/',
