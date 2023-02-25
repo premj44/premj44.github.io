@@ -24,14 +24,11 @@ function About() {
                     fontSize="20px"
                     fontWeight="300"
                 >
-                    An aspiring full-stack web developer, Having the ability to
-                    adapt to new environments quickly and the strong
-                    expertise to   communicate
-                    and express  ideas effectively.
-                    Looking forward to  to working in an organization where I can
-                    showcase my skills  and apply Knowledge of
-                    coding, development, and designs to leverage the  goals
-                        and ambitions  of the organization.
+                    An aspiring full-stack web developer, In-depth knowledge of HTML, CSS, 
+                    JavaScript, React, Redux, Chakra UI, Node JS, Express, Mongo DB.
+                    Skillful creating servers and database for functionality and designing and developing APIs.
+                    Looking forward to working in an organization where use Knowledge of this skills, 
+                    coding, development, and designs.
                 </Text>
                 
                 <Flex justifyContent="space-between">

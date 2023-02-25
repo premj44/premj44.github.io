@@ -3,7 +3,7 @@ import html from "../assets/html.png"
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
-import github from "../assets/github.png";
+import chakra from "../assets/chakra.png";
 import node from "../assets/node.png";
 import express from "../assets/express.png"
 import mongodb from "../assets/mongodb.png"
@@ -55,8 +55,8 @@ function Skill() {
 
     {
       id: 9,
-      src: github,
-      title: "GitHub",
+      src: chakra,
+      title: "Chakra UI",
     },
   ];
 

@@ -38,7 +38,7 @@ function Projects() {
       src: jcrew,
       name: "JCREW CLONE",
       link: "https://timely-toffee-674f49.netlify.app/",
-      repo: 'https://github.com/Prakarshprasar/J.Crew-Clone',
+      repo: 'https://github.com/premj44/JCREW_CLONE',
       info: "J.CREW is a brand that beliefs in creating timeless clothing and accessories.",
       team: "A collaborative project, built in 5 days by a team of 5 developers.",
       tstack: "HTML | CSS | JavaScript"
